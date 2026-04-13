@@ -2,7 +2,7 @@
 
 ## Purpose
 
-DesignBench is developed using a structured, issue-driven workflow.
+DesignBench is developed using a structured, issue-driven, documentation-first workflow.
 
 The goal is to keep work:
 
@@ -12,21 +12,42 @@ The goal is to keep work:
 
 This repository is not just code—it is a record of decisions, structure, and evolution.
 
+## DesignBench Context
+
+DesignBench is a decision-centered engineering system.
+
+Work in this repository should contribute to:
+
+- defining engineering decisions
+- capturing design intent
+- structuring domain concepts such as equipment, systems, and context
+- maintaining traceability between decisions, guidance, and outcomes
+
+Changes that do not support or clarify these areas should be reconsidered.
+
 ---
 
 ## Workflow
 
 1. **Start with an issue**
    - Every meaningful change should originate from or be linked to an issue.
+   - Issues should reflect a clear intent related to:
+     - a decision
+     - a domain concept
+     - a structural or architectural improvement
    - Small fixes (typos, formatting, minor corrections) may be handled directly.
 
-2. **Define scope before implementation**
+2. **Clarify intent before implementation**
    - Capture, at a minimum:
      - goal
      - scope boundaries
      - acceptance criteria (when applicable)
      - impacted areas
-   - Scope should be reasonably understood before deeper implementation begins.
+   - Clarify how the change affects:
+     - decisions
+     - domain structure
+     - system behavior
+   - When a change affects system behavior, architecture, terminology, or workflow, the intended change should be reflected in documentation before or alongside implementation.
 
 3. **Implement in focused branches (when appropriate)**
    - Branches help isolate work and maintain clarity.
@@ -36,11 +57,13 @@ This repository is not just code—it is a record of decisions, structure, and e
    - Confirm behavior aligns with intended outcomes.
    - Watch for unintended side effects.
 
-5. **Update documentation**
-   - Required when:
+5. **Keep documentation ahead of or aligned with code**
+   - Documentation should not lag behind implementation.
+   - Update documentation when:
      - behavior changes
      - structure changes
      - new patterns or conventions are introduced
+     - decisions need to be made explicit
    - Documentation is part of the deliverable.
 
 6. **Record architectural decisions**
@@ -70,6 +93,15 @@ Pull requests are the primary mechanism for reviewing and understanding changes,
 
 Documentation in this repository is part of the **source of truth**.
 
+It should make engineering intent and system behavior understandable without relying on implicit knowledge.
+
+DesignBench is documentation-first:
+
+- issues define intent
+- documentation clarifies structure and behavior
+- ADRs capture important decisions
+- implementation should follow documented understanding, not replace it
+
 Prefer:
 
 - Markdown in version control
@@ -87,6 +119,7 @@ Avoid:
 
 ## Core Principles
 
+- **Documentation before ambiguity**
 - **Traceability over convenience**
 - **Clarity over cleverness**
 - **Structure over rigidity**
@@ -100,6 +133,7 @@ A change is considered complete when:
 
 - [ ] related issue is addressed (if applicable)
 - [ ] implementation aligns with intended scope
+- [ ] impact on decisions, domain structure, or system behavior is clear
 - [ ] changes are committed with clear history
 - [ ] documentation is updated where needed
 - [ ] relevant decisions are recorded when appropriate
@@ -108,4 +142,4 @@ A change is considered complete when:
 
 ## Guiding Principle
 
-> If a change cannot be understood later through its issue, code, and documentation, it is not fully complete.
+> If a change cannot be understood later through its issue, documentation, and code, it is not fully complete.
