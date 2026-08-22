@@ -1,21 +1,21 @@
 # HVACoder.com
 
-HVACoder develops engineering software systems, documentation standards, and workflow tools for structured, traceable architectural engineering work.
+HVACoder develops engineering software and working methods aimed at making engineering work easier to understand, validate, and continue without losing the evidence and judgment behind design decisions.
 
-Our focus is on transforming engineering workflows—often spread across spreadsheets, notes, PDFs, and tribal knowledge—into structured, governed, and software-driven processes.
+We use software, structured data, documentation, source authority, validation, and AI assistance where they improve engineering quality, continuity, and trust. These are means to better engineering work, not ends in themselves.
 
 ## Approach
 
-- formalized engineering data and domain models
-- explicit, traceable design decisions
-- documentation as part of the system, not separate from it
-- repository-driven development with auditable history
-- shared documentation standards with project-specific guardrails where needed
+- decision-centered engineering workflows
+- explicit source basis and validation
+- traceable design reasoning and records
+- documentation as part of the quality system
+- narrow technical proof before broader expansion
 
 ## Current Focus
 
 ### DesignBench
 
-DesignBench is an active project focused first on HVAC engineering workflows, beginning with psychrometrics, HVAC process analysis, system-building workflows, engineering reasoning support, and coordination-ready design records.
+DesignBench is the current proving ground for these ideas in HVAC engineering. Its executable work begins with trusted I-P psychrometric air-property analysis, with adjacent work exploring psychrometric process reasoning, engineering reasoning support, and traceable design records.
 
-The long-term direction is broader architectural engineering support, but DesignBench earns that expansion by solving a narrow HVAC workflow slice with technical credibility, traceability, and durable documentation first.
+Broader engineering applications remain an open horizon rather than a predetermined roadmap. Expansion should follow demonstrated technical credibility, workflow value, and evidence from the narrower work.
