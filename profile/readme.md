@@ -1,21 +1,28 @@
 # HVACoder.com
 
-HVACoder develops engineering software systems, documentation standards, and workflow tools for structured, traceable architectural engineering work.
+HVACoder develops engineering software and working methods aimed at improving engineering work without losing the understanding, evidence, and judgment that make engineering trustworthy.
 
-Our focus is on transforming engineering workflows—often spread across spreadsheets, notes, PDFs, and tribal knowledge—into structured, governed, and software-driven processes.
+Engineering workflows often distribute important context across calculations, spreadsheets, notes, reference material, conversations, and individual experience. HVACoder explores how software can help engineers make that work easier to understand, validate, explain, and continue.
 
 ## Approach
 
-- formalized engineering data and domain models
-- explicit, traceable design decisions
-- documentation as part of the system, not separate from it
-- repository-driven development with auditable history
-- shared documentation standards with project-specific guardrails where needed
+Our work emphasizes:
+
+- engineering decisions with explicit reasoning and traceability;
+- clear source basis, assumptions, and validation;
+- structured engineering data where structure improves the work;
+- documentation as part of the quality system;
+- software and AI assistance that support engineering judgment rather than obscure it; and
+- narrow technical proof before broader expansion.
+
+These are means to better engineering work, not ends in themselves.
 
 ## Current Focus
 
 ### DesignBench
 
-DesignBench is an active project focused first on HVAC engineering workflows, beginning with psychrometrics, HVAC process analysis, system-building workflows, engineering reasoning support, and coordination-ready design records.
+DesignBench is the current proving ground for these ideas in HVAC engineering.
 
-The long-term direction is broader architectural engineering support, but DesignBench earns that expansion by solving a narrow HVAC workflow slice with technical credibility, traceability, and durable documentation first.
+Current executable work begins with trusted I-P psychrometric air-property analysis. Adjacent work explores psychrometric process reasoning, engineering reasoning support, and traceable design records.
+
+DesignBench is intentionally developing from a narrow technical foundation. Broader engineering applications remain an open horizon and should follow demonstrated technical credibility, workflow value, and evidence from the narrower work.
